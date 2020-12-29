@@ -1,0 +1,92 @@
+/* <--- Start Page 1 --->*/
+
+header p {
+         text-align: center;
+         margin-top: -5px; 
+         
+
+}
+
+header h1  {
+        text-align: center;
+        margin-top: -15px; 
+        font-family: work sans; 
+        
+       
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+header h2 {
+        text-align: center;
+}
+
+/* <--- End Page 1 // Start Page 2---> */
+
+main section {
+    background-image: url(../img/portfolio2.jpg);
+    padding: 300px 200px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main section  {
+    text-align: center;
+    color: #fff;
+
+}
+
+/* Images */
+
+main section:nth-child(1){
+    background-image: url(../img/portfolio1.jpeg)
+    display: block;
+}
+
+main section:nth-child(2){
+    background-image: url(../img/portfolio3.png); 
+    display: block;
+    color: black;
+    font-size: 30px; 
+    text-align: left; 
+}
+
+main section:nth-child(3) {
+    background-image: url(../img/portfolio4.jpg);
+    display: block; 
+    color: white;  
+}
+
+main section:nth-child(4) {
+    background-image: url(../img/portfolio5.png);
+    display: block;
+    color: black; 
+    font-size: 30px;
+    text-align: left; 
+   
+}
+
+
+main section:nth-child(5) {
+    background-image: none; 
+    color: black; 
+    font-size: 30px; 
+}
+
+
+
+main section:nth-child(6) {
+
+margin-left: -50px; 
+background-color: white; 
+background-image: none;
+color: black; 
+font-size: 40px; 
+text-decoration: underline;
+}
+
